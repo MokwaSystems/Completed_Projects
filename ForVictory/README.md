@@ -12,12 +12,12 @@ aby np. ośmieszyć system gry - wtedy silnik gry miał się tego domyśleć i g
 
 Ulepszyłem troszkę założenia:
 
-==> Dodałem bezwzględne wygrywanie komputerowych przeciwników przy "ośmieszaniu" systemu gry
-==> Oponenci i ich strategia wyścigu jest losowana przy starcie gry
-==> Strategia jest podzielona na trzy fazy: Niektórzy z kierowców są szybcy już na początku,
+- Dodałem bezwzględne wygrywanie komputerowych przeciwników przy "ośmieszaniu" systemu gry
+- Oponenci i ich strategia wyścigu jest losowana przy starcie gry
+- Strategia jest podzielona na trzy fazy: Niektórzy z kierowców są szybcy już na początku,
 inni dotrzymują prędkością "towarzystwa" graczowi. A jeszcze inni startują prawie równo z graczem
 lub sporo wolniej i w jakimś momencie gry - zwalniają. Dają się wyprzedzić
-==> EMOCJE - Zadaniem przeciwników było wymuszenie rywalizacji. Czyli wspomniane wyprzedzanie, zwalnianie,
+- EMOCJE - Zadaniem przeciwników było wymuszenie rywalizacji. Czyli wspomniane wyprzedzanie, zwalnianie,
 trzymanie się blisko gracza czy bardzo szybka jazda prawie do końca wyścigu. Gracz nie może czuć się
 "osamotniony" gdy rywalizuje.
 
@@ -25,8 +25,8 @@ Nauczyłem się dość dużo przy tym projekcie. To był jeden z tych ważnych -
 z jasno określonym terminem. Najbardziej spodobało mi się to, że użyłem w kodzie - jak to nazywam - 
 strategii parametrów. Czyli dodałem zmienne które określały pewne parametry mające wpływ na np. poziom trudności
 czy startu rywali, prędkości i jej kontroli i tym podobnych. Po napisaniu stabilnej wersji mogłem zmieniać tylko
-te parametry i w prosty sposób "wyśróbować" pewne detale. Oczywiście to nie była jedyna sprawa której się nauczyłem
-- muszę jeszcze wspomnieć o mechaniźmie obsługi kliknięcia i jeśli np. gracz nie klika (albo zaczął robić to wolniej)
+te parametry i w prosty sposób "wyśróbować" pewne detale. Oczywiście to nie była jedyna sprawa której się nauczyłem,
+muszę jeszcze wspomnieć o mechaniźmie obsługi kliknięcia i jeśli np. gracz nie klika (albo zaczął robić to wolniej)
 pasek przyspieszenia (nie pokazany na ekranie - istniał w kodzie i w mojej głowie) - stopniowo zwalnia. Im szybciej
 gracz wciskał klawisz - tym też ciężej było utrzymać maksymalną prędkość. Ponieważ to też się skalowało.
 
