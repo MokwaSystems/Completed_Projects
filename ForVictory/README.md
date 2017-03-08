@@ -35,4 +35,5 @@ Mimo dość, na pierwszy rzut oka - prostej mechaniki - zawiera w sobie parę de
 nie należą.
 
 Autor projektu: Przemysław Mokwa
+
 Zostały usunięte wszelakie grafiki mające związek z zleceniodawcą
